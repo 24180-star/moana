@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sun Stay Motel</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-image: url('https://bpic.588ku.com/back_pic/05/83/20/705c4f8778781f5.jpg'); 
+
+      background-repeat: no-repeat; 
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 150px;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      z-index: 1000;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 8px #000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Sunny Stay Motel</div>
+    <nav class="navbar">
+      <a href="Untitled-1.html">Home</a>
+      <a href="Picture.html">Picture</a>
+      <a href="about.html">about</a>
+    </nav>
+  </header>  
+
+  <h1>“More than motel,it's sunshine living.”</h1>
+
+</body>
+</html>
